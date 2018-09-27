@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 
 import com.ict.sp.vo.Dept;
 
-@Repository
+@Repository			//다오에 특화된 어노테이션이다(언클릭exception 들을 스프링의 데이타Access exception 으로 처리)
 public class TestDAO {
 	
 	@Autowired
